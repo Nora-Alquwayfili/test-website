@@ -45,7 +45,16 @@ p {
 .button:hover {
   background-color: #0056b3;
 }
+/* مبرر للنصوص */
+.justify {
+  text-align: justify;
+}
 
+/* الفيديو في المنتصف تماماً */
+.center-video {
+  display: flex;
+  justify-content: center;
+}
 video {
   width: 90%;
   max-width: 500px;
